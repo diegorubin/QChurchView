@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+	<tema_pregador>
+		<nome>CHANUKAH</nome>
+		<infs tipo="video">
+			<extensao>.gif</extensao> 
+			<caminho>chanukah.gif</caminho>
+			<desc>Primeiro tema animado e video</desc>
+			<video>chanukah.mpg</video>
+			<ext_video>.mpg</ext_video>
+		</infs>
+		<fonte>
+			<pointsize>40</pointsize>
+			<fill>white</fill>
+			<stroke>blue</stroke>
+			<strokewidth>1</strokewidth>
+		</fonte>
+		<pos>
+			<titulo x="100" y="330" />
+			<titulo2 x="100" y="390" />
+			<texto x="100" y="450" />
+			<pregador x="100" y="510" />
+		</pos>
+	</tema_pregador>

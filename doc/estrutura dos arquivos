@@ -1,0 +1,22 @@
+Arquivo que gerados pelo qchurchview:
+Todos funcionaram no mesmo esquema como odf. Arquivos com metadados, arquivos binarios, compactados por um algoritimo conhecido.
+
+
+qvs: QchurchView Slide
+	
+	Descricao:
+	Arquivo que possui informacao sobre uma apresentacao.
+	
+	Estrutura:
+	inf_apresentacao.xml->possui informacoes como titulo da apresentacao, numero de slides, autor, tema padrao.
+	texto.xml -> textos usados
+	
+qts: Qchurchview Theme Slide
+
+	Descricao:
+	Arquivo que contem temas para apresentacoes.
+	
+	Estrutura:
+	inf_tema.xml->possui informacoes como titulo do tema, se e imagem ou video, informacoes de cores, etc...
+	thumb
+	imagens

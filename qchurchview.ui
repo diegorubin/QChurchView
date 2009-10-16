@@ -1,0 +1,98 @@
+<ui version="4.0" >
+ <class>QChurchViewClass</class>
+ <widget class="QMainWindow" name="QChurchViewClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>916</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle" >
+   <string>QChurchView</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" />
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>916</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo" >
+    <property name="title" >
+     <string>Arquivo</string>
+    </property>
+    <widget class="QMenu" name="menuImportar" >
+     <property name="title" >
+      <string>Importar</string>
+     </property>
+     <addaction name="actionTextos" />
+    </widget>
+    <addaction name="separator" />
+    <addaction name="menuImportar" />
+    <addaction name="separator" />
+    <addaction name="actionSair" />
+   </widget>
+   <widget class="QMenu" name="menuAjuda" >
+    <property name="title" >
+     <string>Ajuda</string>
+    </property>
+    <addaction name="actionSobreQt" />
+    <addaction name="actionSobre" />
+   </widget>
+   <widget class="QMenu" name="menuConfiguracoes" >
+    <property name="title" >
+     <string>Configurações</string>
+    </property>
+    <addaction name="actionDiretorios" />
+    <addaction name="actionSlidePadrao" />
+   </widget>
+   <addaction name="menuArquivo" />
+   <addaction name="menuConfiguracoes" />
+   <addaction name="menuAjuda" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <action name="actionSair" >
+   <property name="text" >
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionSobre" >
+   <property name="text" >
+    <string>Sobre...</string>
+   </property>
+  </action>
+  <action name="actionDiretorios" >
+   <property name="text" >
+    <string>Diretórios</string>
+   </property>
+  </action>
+  <action name="actionSobreQt" >
+   <property name="text" >
+    <string>Sobre Qt...</string>
+   </property>
+  </action>
+  <action name="actionTextos" >
+   <property name="text" >
+    <string>Textos</string>
+   </property>
+  </action>
+  <action name="actionSlidePadrao" >
+   <property name="text" >
+    <string>Slide Padrão</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
